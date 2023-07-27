@@ -24,7 +24,9 @@ app.get("/about",function(req,res){                                       // ren
 app.get("/contact",function(req,res){                                            // rendering contact page through contact.ejs
   res.render("contact",{contactContent:contactContent});
 })
-
+app.get("/compose",function(req,res){                                            // rendering contact page through contact.ejs
+  res.render("compose");
+})
 
 
 
